@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -q -O - https://www.kali.org/archive-key.asc | gpg --import
+gpg --verify SHA1SUMS.gpg SHA1SUMS
+
